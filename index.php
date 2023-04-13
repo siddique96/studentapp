@@ -38,7 +38,6 @@
                 $run = mysqli_query($connection, $sql);
 
                 $id = 1;
-
                 while ($row = mysqli_fetch_array($run)) {
                   $uid = $row['id'];
                   $name = $row['name'];
